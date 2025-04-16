@@ -20,6 +20,13 @@ This folder contains my Java exercises from Workbook 2.
 - Displays "(none)" for middle name if it was not provided
 - Uses `split()`, conditionals, and arrays to handle flexible input
 
+### ✅ FinancialClientApp
+- Console-based app to register and manage business clients
+- Collects first name, last name, business name, email address, and phone number
+- Displays client info with formatted names like `Last, First I.`
+- Allows users to display all business names or email addresses from a predefined list
+- Demonstrates usage of classes, arrays, methods, and object data formatting
+
 ---
 
 ## ✨ What I Learned
