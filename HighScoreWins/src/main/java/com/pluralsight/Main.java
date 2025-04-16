@@ -8,10 +8,4 @@ public class Main {
 
 
 
-public static String grabFirstWord(String input) {
-    return input.substring(0, input.indexOf(' '));
-}
 
-public static String grabLastWord(String input) {
-    return input.substring(input.lastIndexOf(' ') + 1);
-}

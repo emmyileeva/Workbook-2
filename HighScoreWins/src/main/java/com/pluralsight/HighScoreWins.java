@@ -22,7 +22,11 @@ public class HighScoreWins {
         // Display the winner and find the winner
         if (score1 > score2) {
             System.out.println("Winner: " + team1);
+        } else if (score2 > score1) {
+            System.out.println("Winner: " + team2);
+        } else {
+            System.out.println("It's a tie!");
         }
-
+input.close();
     }
 }
