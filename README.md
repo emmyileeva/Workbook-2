@@ -34,6 +34,13 @@ This folder contains my Java exercises from Workbook 2.
 - Displays "It's a tie!" if both scores are equal
 - Great for practicing string splitting, parsing, and conditionals
 
+### ✅ TheaterReservations
+- Prompts the user for their full name, show date (in `MM/dd/yyyy` format), and number of tickets
+- Automatically reformats the date to `yyyy-MM-dd` for clarity
+- Displays a confirmation message showing the number of tickets, formatted date, and the name as `LastName, FirstName`
+- Handles plural and singular ticket wording (e.g., “1 ticket” vs. “3 tickets”)
+- Great practice for string manipulation and Java date formatting using `LocalDate` and `DateTimeFormatter`
+
 ---
 
 ## ✨ What I Learned
