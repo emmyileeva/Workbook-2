@@ -55,20 +55,28 @@ This folder contains my Java exercises from Workbook 2.
   - `carrier`
   - `phoneNumber`
   - `owner`
-- Implements a parameterless constructor with default values.
+- Implements:
+  - A parameterless constructor with default values.
+  - An overloaded constructor to initialize all fields at once.
 - Provides getter and setter methods for each field.
-- Includes a `dial` method to simulate one phone dialing another.
+- Includes a `dial` method:
+  - Allows dialing a phone number.
+  - Overloaded to simulate one `CellPhone` object dialing another.
 - In the main application:
   - Prompts the user to enter details for two cell phones.
   - Sets the details using setters and retrieves them using getters.
   - Displays the phone's properties in a formatted output.
   - Adds a separator line between the details of each phone for better readability.
   - Simulates dialing between the two phones using the `dial` method.
+  - Creates a third `CellPhone` object using the overloaded constructor.
+  - Initializes the third phone's fields using setters and displays its details.
+  - Simulates dialing from the third phone to the first phone.
 - Great practice for:
   - Working with classes, constructors, setters, and getters.
   - Handling user input with `Scanner`.
   - Formatting console output for clarity.
-
+  - Overloading methods for enhanced functionality.
+  
 ---
 
 ## ✨ What I Learned
