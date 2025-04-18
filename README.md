@@ -100,6 +100,18 @@ This folder contains my Java exercises from Workbook 2.
   - Creating and using methods in a separate class
   - Working with counters and conditional logic
 
+### ✅ TestStatistics
+- Creates an array of 10 test scores
+- Calculates and displays:
+  - The average score
+  - The highest score
+  - The lowest score
+- Bonus: Calculates and displays the median score
+- Great practice for:
+  - Using arrays to store and access data
+  - Performing calculations like average, min, max, and median
+  - Working with sorting methods and conditional logic
+
 ---
 
 ## ✨ What I Learned
