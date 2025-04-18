@@ -48,6 +48,14 @@ This folder contains my Java exercises from Workbook 2.
 - Adds blank lines between sections for clear formatting
 - Great practice for working with `StringBuilder`, user input, and string formatting
 
+### ✅ CellPhoneService
+- Builds a `CellPhone` class with fields like serial number, model, carrier, phone number, and owner  
+- Uses a parameterless constructor with default values  
+- Provides getter and setter methods for each field  
+- In the main app, prompts the user to enter all phone details, then sets them using setters  
+- Prints out the phone's properties using getters  
+- Great practice for working with classes, constructors, setters, getters, and user input
+
 ---
 
 ## ✨ What I Learned
