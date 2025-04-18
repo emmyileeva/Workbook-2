@@ -41,6 +41,13 @@ This folder contains my Java exercises from Workbook 2.
 - Handles plural and singular ticket wording (e.g., “1 ticket” vs. “3 tickets”)
 - Great practice for string manipulation and Java date formatting using `LocalDate` and `DateTimeFormatter`
 
+### ✅ AddressBuilder
+- Prompts the user to enter their full name, billing address, and shipping address
+- Uses `StringBuilder` and the `append()` method to dynamically build a formatted address block
+- Displays the customer’s full name followed by billing and shipping addresses
+- Adds blank lines between sections for clear formatting
+- Great practice for working with `StringBuilder`, user input, and string formatting
+
 ---
 
 ## ✨ What I Learned
