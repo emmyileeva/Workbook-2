@@ -85,7 +85,20 @@ This folder contains my Java exercises from Workbook 2.
 - Great practice for:
   - Understanding loop syntax and flow control  
   - Managing loop conditions and loop bodies  
-  - Introducing delays in console apps with exception handling  
+  - Introducing delays in console apps with exception handling
+ 
+### ✅ RollTheDice
+- Simulates rolling a pair of dice 100 times using a custom `Dice` class
+- The `Dice` class includes a `roll()` method that returns a random number between 1 and 6
+- In the main app:
+  - Rolls two dice per loop iteration
+  - Prints each pair’s values and their sum in the format: `Roll 1: 4 - 6 Sum: 10`
+  - Tracks how often the sums 2, 4, 6, and 7 appear
+- After all rolls, displays the total count of how many times 2, 4, 6, and 7 were rolled
+- Great practice for:
+  - Using loops and random number generation
+  - Creating and using methods in a separate class
+  - Working with counters and conditional logic
 
 ---
 
