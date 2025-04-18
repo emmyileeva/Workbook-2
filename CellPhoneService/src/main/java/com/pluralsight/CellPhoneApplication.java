@@ -19,6 +19,16 @@ public class CellPhoneApplication {
                 this.owner = "";
             }
 
+            // Overloaded Constructor
+            public CellPhone(int serialNumber, String model, String carrier, String phoneNumber, String owner) {
+                this.serialNumber = serialNumber;
+                this.model = model;
+                this.carrier = carrier;
+                this.phoneNumber = phoneNumber;
+                this.owner = owner;
+            }
+
+            // Getters and Setters
             public int getSerialNumber() {
                 return serialNumber;
             }
@@ -62,6 +72,11 @@ public class CellPhoneApplication {
             // Dial Method
             public void dial(String phoneNumber) {
                 System.out.println(owner + " is dialing " + phoneNumber);
+            }
+
+            // Overloaded dial method
+            public void dial(CellPhone cellPhone) {
+                System.out.println(owner + " is dialing " + cellPhone.getPhoneNumber());
             }
         }
     public static void main(String[] args) {
@@ -121,6 +136,25 @@ public class CellPhoneApplication {
 
         // Second cell phone dials the first cell phone
         cellPhone2.dial(cellPhone.getPhoneNumber());
+
+        System.out.println("----------------------------------------");
+
+        //Create a new instance of CellPhone using the overloaded constructor
+        CellPhone cellPhone3 = new CellPhone(0, "", "", "", "");
+
+        // Set the properties of the third cell phone using setters
+        cellPhone3.setSerialNumber(123456);
+        cellPhone3.setModel("iPhone 14");
+        cellPhone3.setCarrier("Verizon");
+        cellPhone3.setPhoneNumber("(123) 456-7890");
+        cellPhone3.setOwner("John Doe");
+
+        // Display the third cell phone information
+        display(cellPhone3);
+
+        // Dial the third cell phone
+        System.out.println("Dialing from the third cell phone:");
+        cellPhone3.dial(cellPhone.getPhoneNumber());
 
         scanner.close();
     }
