@@ -76,7 +76,17 @@ This folder contains my Java exercises from Workbook 2.
   - Handling user input with `Scanner`.
   - Formatting console output for clarity.
   - Overloading methods for enhanced functionality.
-  
+
+### ✅ LoopingExercises
+- A set of small apps demonstrating each loop type in Java:
+  - **WhileLoop**: prints “I love Java” five times using a `while` loop  
+  - **DoWhileLoop**: prints “I love Java” five times using a `do…while` loop  
+  - **ForLoop**: counts down from 10 to 1 with a `for` loop, pauses 1 second between numbers with `Thread.sleep(1000)`, and ends with “Launch!”  
+- Great practice for:
+  - Understanding loop syntax and flow control  
+  - Managing loop conditions and loop bodies  
+  - Introducing delays in console apps with exception handling  
+
 ---
 
 ## ✨ What I Learned
@@ -86,6 +96,8 @@ This folder contains my Java exercises from Workbook 2.
 - How to use `if`, `else if`, and `else` to build different outcomes based on input
 - How to keep console output clean and readable
 - How to use `String.split()` and arrays to parse flexible user input
+- How to use for, while, and do-while loops effectively
+- How to use Thread.sleep() to add delays in loop execution
 
 
 
