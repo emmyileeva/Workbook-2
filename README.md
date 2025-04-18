@@ -49,12 +49,25 @@ This folder contains my Java exercises from Workbook 2.
 - Great practice for working with `StringBuilder`, user input, and string formatting
 
 ### ✅ CellPhoneService
-- Builds a `CellPhone` class with fields like serial number, model, carrier, phone number, and owner  
-- Uses a parameterless constructor with default values  
-- Provides getter and setter methods for each field  
-- In the main app, prompts the user to enter all phone details, then sets them using setters  
-- Prints out the phone's properties using getters  
-- Great practice for working with classes, constructors, setters, getters, and user input
+- Builds a `CellPhone` class with fields like:
+  - `serialNumber`
+  - `model`
+  - `carrier`
+  - `phoneNumber`
+  - `owner`
+- Implements a parameterless constructor with default values.
+- Provides getter and setter methods for each field.
+- Includes a `dial` method to simulate one phone dialing another.
+- In the main application:
+  - Prompts the user to enter details for two cell phones.
+  - Sets the details using setters and retrieves them using getters.
+  - Displays the phone's properties in a formatted output.
+  - Adds a separator line between the details of each phone for better readability.
+  - Simulates dialing between the two phones using the `dial` method.
+- Great practice for:
+  - Working with classes, constructors, setters, and getters.
+  - Handling user input with `Scanner`.
+  - Formatting console output for clarity.
 
 ---
 
