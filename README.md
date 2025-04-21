@@ -112,6 +112,27 @@ This folder contains my Java exercises from Workbook 2.
   - Performing calculations like average, min, max, and median
   - Working with sorting methods and conditional logic
 
+### ✅ VehicleInventory
+- Console app that simulates a basic inventory system for a used car dealership
+- Uses a `Vehicle` class with fields:
+  - `vehicleId`, `makeModel`, `color`, `odometerReading`, and `price`
+- Main features:
+  - Preloads the system with 6 sample vehicles
+  - Presents a menu to the user to choose different actions:
+    - `1` - List all vehicles
+    - `2` - Search by make/model
+    - `3` - Search by price range
+    - `4` - Search by color
+    - `5` - Add a new vehicle
+    - `6` - Quit
+- Each menu option is handled by a method to keep code organized
+- Uses arrays, conditionals, and loops to manage data and control flow
+- Great for practicing:
+  - Class design and object-oriented thinking
+  - Menu-driven programs and switch statements
+  - Working with arrays of objects
+  - Filtering and searching logic based on user input
+
 ---
 
 ## ✨ What I Learned
