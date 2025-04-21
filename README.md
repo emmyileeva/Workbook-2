@@ -135,6 +135,8 @@ This folder contains my Java exercises from Workbook 2.
 
 ---
 
+---
+
 ## ✨ What I Learned
 - How to use `Scanner` to collect user input from the console
 - How to handle optional inputs and conditionally add parts to a string
@@ -143,7 +145,14 @@ This folder contains my Java exercises from Workbook 2.
 - How to keep console output clean and readable
 - How to use `String.split()` and arrays to parse flexible user input
 - How to use for, while, and do-while loops effectively
-- How to use Thread.sleep() to add delays in loop execution
+- How to use `Thread.sleep()` to add delays in loop execution
+- How to use `StringBuilder` to build and format dynamic strings
+- How to create and use custom classes, constructors, getters, and setters
+- How to store and manipulate objects in arrays
+- How to design menu-driven applications using `switch` statements
+- How to write modular code by breaking tasks into methods
+- How to filter and search object data based on user-defined criteria
+
 
 
 
